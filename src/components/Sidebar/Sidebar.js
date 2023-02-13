@@ -10,8 +10,13 @@ const routes = [
 		icon: <i class="fas fa-home-lg"></i>,
 	},
 	{
-		path: "/dashboard/deposit",
-		name: "Deposit",
+		path: "/dashboard/bank-transfer",
+		name: "Bank Transfer",
+		icon: <i class="fas fa-home-lg"></i>,
+	},
+	{
+		path: "/dashboard/cashout",
+		name: "Cashout",
 		icon: <i class="fas fa-home-lg"></i>,
 	},
 	{
@@ -20,8 +25,8 @@ const routes = [
 		icon: <i class="fas fa-home-lg"></i>,
 	},
 	{
-		path: "/dashboard/withdraw",
-		name: "Withdraw",
+		path: "/dashboard/deposit",
+		name: "Deposit",
 		icon: <i class="fas fa-home-lg"></i>,
 	},
 ];

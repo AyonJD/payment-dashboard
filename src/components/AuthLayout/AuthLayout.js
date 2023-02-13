@@ -8,9 +8,7 @@ const AuthLayout = () => {
 	const navigate = useNavigate();
 
 	useEffect(() => {
-		if (!isAuthenticated(user)) {
-			logout(navigate);
-		}
+
 	}, []);
 
 	return (
