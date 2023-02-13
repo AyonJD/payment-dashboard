@@ -1,0 +1,123 @@
+// DASHBOARD
+.dash__container {
+  padding: 1rem;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.dashCard {
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2%;
+  margin-bottom: 1.3rem;
+
+  .dashCard__item {
+    height: 8rem;
+    width: 100%;
+
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px 1px rgb(211, 210, 210);
+
+    background-color: white;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    cursor: pointer;
+
+    &:hover {
+      background-color: rgb(206, 206, 206);
+      transition: 01s ease-out;
+
+      .circles {
+        .circle {
+          background-color: white;
+        }
+      }
+    }
+
+    .dc__count {
+      font-weight: 800;
+      font-size: 35px;
+    }
+
+    .dc__text {
+      font-size: 16px;
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+
+    .circles {
+      display: flex;
+      margin-top: 10px;
+      gap: 0.8rem;
+
+      .circle {
+        height: 12px;
+        width: 12px;
+        border-radius: 50%;
+        background-color: rgb(177, 177, 177);
+      }
+    }
+  }
+}
+
+// CHATRS
+.dashChart__container {
+  // height: 100%;
+  // width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2%;
+}
+
+.dash__chart {
+  height: 18rem;
+  width: 99.8%;
+
+  border-radius: 5px;
+  box-shadow: 1px 1px 1px 1px rgb(211, 210, 210);
+
+  background-color: white;
+
+  margin-bottom: 15px;
+
+  .chart__title {
+    height: 3rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+
+    background-color: rgb(223, 223, 223);
+
+    .title__text {
+      font-size: 18px;
+      font-weight: bold;
+      margin-left: 18px;
+    }
+  }
+
+  .chart {
+    height: 80%;
+    width: 100%;
+  }
+}
+
+// MEDIA
+@media screen and (max-width: 1200px) {
+  .dashChart__container {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .dashCard {
+    grid-template-columns: 1fr;
+    margin-bottom: 2rem;
+  }
+}
+
