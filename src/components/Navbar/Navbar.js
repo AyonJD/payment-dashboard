@@ -6,7 +6,7 @@ const Navbar = () => {
 		<>
 			{/* Navbar */}
 			<nav className=" w-full z-10 bg-secondary p-4">
-				<div className="w-full mx-auto items-center flex justify-between md:px-10">
+				<div className="w-full mx-auto items-center flex justify-between">
 					{/* Brand */}
 					<a
 						className="text-white text-sm uppercase hidden lg:inline-block font-semibold"
