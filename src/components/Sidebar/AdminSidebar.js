@@ -122,7 +122,7 @@ const AdminSidebar = ({ children }) => {
                     </section>
                 </motion.div>
 
-                <main className={`${isOpen ? 'small_width' : 'large_width'}`}>{children}</main>
+                <main className={`handle_top_padding ${isOpen ? 'small_width' : 'large_width'}`}>{children}</main>
             </div>
         </div>
     );
