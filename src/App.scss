@@ -66,3 +66,7 @@
 .handle_top_padding{
   padding-top: 0 !important;
 }
+
+.height_handle{
+  height: calc(100vh - 80px);
+}

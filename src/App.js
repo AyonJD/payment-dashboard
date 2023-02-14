@@ -9,7 +9,6 @@ import CashOut from "./pages/UserDashboard/CashOut";
 import DashboardPage from "./pages/UserDashboard/DashboardPage.js";
 import Deposit from "./pages/UserDashboard/Deposit";
 import Payment from "./pages/UserDashboard/Payment";
-import Withdraw from "./pages/UserDashboard/Withdraw";
 
 
 function App() {
@@ -34,8 +33,8 @@ function App() {
 						<Route path="dashboard/cashout" element={<CashOut />} />
 						<Route path="dashboard/payment" element={<Payment />} />
 						<Route path="dashboard/deposit" element={<Deposit />} />
-						<Route path="dashboard/profile" element={<Withdraw />} />
-						<Route path="dashboard/settings" element={<Withdraw />} />
+						{/* <Route path="dashboard/profile" element={< />} />
+						<Route path="dashboard/settings" element={< />} /> */}
 					</Route>
 				</Routes>
 			</BrowserRouter>

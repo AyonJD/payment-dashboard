@@ -34,7 +34,7 @@ const DashboardPage = () => {
 				{/* Header */}
 				<>
 					{/* Header */}
-					<div className="relative bg-bkash md:pt-32 pb-32 pt-12">
+					<div className="relative height_handle bg-bkash md:pt-32 pb-32 pt-12">
 						<div className={` px-4 mx-auto md:px-10 ${(windowWidth < 1280 && windowWidth > 550) ? "w-1/2" : windowWidth < 550 ? "w-full" : 'w-4/12'}`}>
 							<CardBalance />
 						</div>
