@@ -6,11 +6,19 @@ import Navbar from "../Navbar/Navbar";
 import Sidebar from "../Sidebar/Sidebar";
 
 const AppLayout = () => {
+	const user = { name: "Ayon", token: "1245434" };
+	const navigate = useNavigate();
+
+	useEffect(() => {
+		if (!isAuthenticated(user)) {
+			logout(navigate);
+		}
+	}, []);
 
 	return (
 		<>
 			<Sidebar>
-			<Navbar />
+				<Navbar />
 				<Outlet />
 			</Sidebar>
 		</>
