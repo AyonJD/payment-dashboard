@@ -5,8 +5,8 @@ const Navbar = () => {
 	return (
 		<>
 			{/* Navbar */}
-			<nav className=" w-full z-10 bg-secondary md:flex-row md:flex-nowrap md:justify-start flex items-center p-4">
-				<div className="w-full mx-autp items-center flex justify-between md:flex-nowrap flex-wrap md:px-10 px-4">
+			<nav className=" w-full z-10 bg-secondary p-4">
+				<div className="w-full mx-auto items-center flex justify-between md:px-10">
 					{/* Brand */}
 					<a
 						className="text-white text-sm uppercase hidden lg:inline-block font-semibold"
@@ -16,7 +16,7 @@ const Navbar = () => {
 						Central Bank Of Thiland
 					</a>
 					{/* User */}
-					<ul className="flex-col md:flex-row list-none items-center hidden md:flex">
+					<ul className=" flex-row list-none items-center flex">
 						<UserDropdown />
 					</ul>
 				</div>
