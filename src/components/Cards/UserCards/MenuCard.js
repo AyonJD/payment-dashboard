@@ -26,7 +26,7 @@ const MenuCard = ({
                             </div>
 
                             <div className="flex justify-center items-center flex-col">
-                                <h6 className="text-blueGray-400 uppercase font-bold text-xs mt-2 mx-auto inline-block text-center">
+                                <h6 className="text-gray-400 uppercase font-bold text-xs mt-2 mx-auto inline-block text-center">
                                     {statSubtitle}
                                 </h6>
                             </div>

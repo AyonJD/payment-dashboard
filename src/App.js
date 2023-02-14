@@ -4,6 +4,8 @@ import AppLayout from "./components/AppLayout/AppLayout";
 import AuthLayout from "./components/AuthLayout/AuthLayout";
 import AdminDashboardHome from "./pages/AdminDashboard/AdminDashboardHome";
 import LoginPage from "./pages/Auth/LoginPage";
+import BankTransfer from "./pages/UserDashboard/BankTransfer";
+import CashOut from "./pages/UserDashboard/CashOut";
 import DashboardPage from "./pages/UserDashboard/DashboardPage.js";
 import Deposit from "./pages/UserDashboard/Deposit";
 import Payment from "./pages/UserDashboard/Payment";
@@ -28,8 +30,8 @@ function App() {
 							)
 						}
 
-						<Route path="dashboard/bank-transfer" element={<Deposit />} />
-						<Route path="dashboard/cashout" element={<Deposit />} />
+						<Route path="dashboard/bank-transfer" element={<BankTransfer />} />
+						<Route path="dashboard/cashout" element={<CashOut />} />
 						<Route path="dashboard/payment" element={<Payment />} />
 						<Route path="dashboard/deposit" element={<Deposit />} />
 						<Route path="dashboard/profile" element={<Withdraw />} />

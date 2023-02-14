@@ -6,7 +6,7 @@ import "./sidebar.scss";
 const routes = [
 	{
 		path: "/",
-		name: "Dashboard",
+		name: "Account Details",
 		icon: <i class="fas fa-home-lg"></i>,
 	},
 	{

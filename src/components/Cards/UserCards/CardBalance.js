@@ -6,7 +6,7 @@ const CardBalance = () => {
             <div className="rounded-t mb-0 px-4 py-3 border-0">
                 <div className="flex flex-wrap items-center">
                     <div className="relative w-full px-4 max-w-full flex-grow flex-1">
-                        <h3 className="font-bold text-base text-center text-blueGray-700">
+                        <h3 className="font-bold text-base text-center text-gray-700">
                             Available Balance
                         </h3>
                     </div>
@@ -17,7 +17,7 @@ const CardBalance = () => {
                     <table className="items-center w-full bg-transparent border-collapse">
                         <thead className="thead-light">
                             <tr>
-                                <th className="px-6 bg-blueGray-50 text-bkash align-middle border border-solid border-blueGray-100 py-3 text-xs uppercase border-l-0 border-r-0 whitespace-nowrap font-semiboldtext-md text-center">
+                                <th className="px-6 bg-gray-50 text-bkash align-middle border border-solid border-gray-100 py-3 text-xs uppercase border-l-0 border-r-0 whitespace-nowrap font-semiboldtext-md text-center">
                                     Amount
                                 </th>
                             </tr>
