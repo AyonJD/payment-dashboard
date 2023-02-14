@@ -73,7 +73,7 @@ const AdminSidebar = ({ children }) => {
                                     exit="hidden"
                                     className="logo"
                                 >
-                                    RIDER
+                                    CBT
                                 </motion.h1>
                             )}
                         </AnimatePresence>
