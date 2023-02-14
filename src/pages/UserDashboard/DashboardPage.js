@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 import { isAuthenticated, logout } from "../../utility/authUtils";
 
 const DashboardPage = () => {
-	const user = { name: "Ayon", token: "" };
+	const user = { name: "Ayon", token: "543545" };
 	const navigate = useNavigate();
 
 	useEffect(() => {

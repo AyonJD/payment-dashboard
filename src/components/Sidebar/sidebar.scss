@@ -15,7 +15,7 @@
       
       /* Sidebar */
       .sidebar {
-        background: rgb(0, 7, 61);
+        background: #E3136B;
         color: white;
         height: 100vh;
         overflow-y: auto;
@@ -71,12 +71,12 @@
       }
       .link:hover {
         border-right: 4px solid white;
-        background: rgb(45, 51, 89);
+        background: #765268;
         transition: 0.2s cubic-bezier(0.6, -0.28, 0.735, 0.045);
       }
       .active {
         border-right: 4px solid white;
-        background: rgb(45, 51, 89);
+        background: #765268
       }
       .link_text {
         white-space: nowrap;
